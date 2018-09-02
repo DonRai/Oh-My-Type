@@ -1,6 +1,6 @@
 {
     "name": "oh-my-type",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Oh my type! Tiny and robust type checker.",
     "main": "index.js",
     "repository": "https://github.com/Neporotovskiy/Oh-My-Type.git",
