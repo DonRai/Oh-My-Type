@@ -11,9 +11,7 @@ function OhMyType(argument) {
         type = typeOfPrototype.slice(8, -1);
     switch (type) {
         case 'Number': {
-            var isNaN = false;
-            Number.isNaN ? Number.isNaN(argument) : window.isNaN(argument);
-            result = isNaN ? 'NaN' : 'Number';
+            result = Number.isNaN ? Number.isNaN(argument) : window.isNaN(argument);
             break;
         }
         default:
